@@ -170,5 +170,7 @@ async function main() {
 	writeSummary();
 }
 
-console.assert(KEY !== undefined, "The environment variable GOOGLE_POLY_KEY must be set first.");
-main().catch(err => console.log('Unexpected error occurred: ' + err));
+if (KEY === undefined)
+	console.error("The environment variable GOOGLE_POLY_KEY must be set first.");
+else
+	main().catch(err => console.log('Unexpected error occurred: ' + err));
