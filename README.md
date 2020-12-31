@@ -10,7 +10,7 @@ Simply put, it collects, filters and downloads 3d models from Poly.
 - It skip over non-curated and Tilt Brush based models.
 - It will pick the best format in order: GLTF2 (best case), GLTF, FBX, OBJ (worst case).
 - Each model that is downloaded, skipped or that failed to download is logged.
-- A summary.txt file will be created which gives a description of the folder, Google Poly, the model licenses (always CC-BY).
+- A summary.txt file will be created which gives a description of the folder, Google Poly, and the model licenses (always CC-BY).
 - The summary file includes a list of all the downloaded models (the name, its author and description).
 
 Last time I used this tool, it downloaded roughly 13.6 GB of models and took several hours. Fair warning:
