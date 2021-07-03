@@ -1,6 +1,12 @@
 # Poly Model Downloader
 A tool I made in a day to download Google's curated Poly models.
 
+# Post Mortem
+**Thank you** to everyone who used my tool. I hope you where able to download all of the models you need.
+
+Now that Google Poly is officially, fully shutdown, I will be adding a notice to the tool and archiving this repository.
+The source code will remain here for the foreseeable future under the provided MIT license (I recommend forking this repository and applying security updates if needed).
+
 ## Features
 Simply put, it collects, filters and downloads 3d models from Poly.
 
