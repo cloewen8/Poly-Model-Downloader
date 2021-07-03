@@ -160,6 +160,10 @@ async function fetchPage(page, tries=0) {
 }
 
 async function main() {
+	console.warn(`WARNING
+
+Now that Google Poly has been fully shutdown, this tool is no longer being maintained.
+It may stop working at any time and should not be relied on.`);
 	if (existsSync(DESTINATION)) {
 		console.log('Removing existing directory...')
 		rmdirSync(DESTINATION, { recursive: true });
